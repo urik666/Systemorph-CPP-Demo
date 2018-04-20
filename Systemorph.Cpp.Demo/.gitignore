@@ -1,0 +1,48 @@
+# Version control
+.hg
+.git
+.svn
+.src
+
+# Visual Studio
+*.suo
+.vs
+TestResults
+*.user
+*.vsmdi
+*.cache
+[Bb]in
+[Oo]bj
+[Dd]ebug
+[Rr]elease
+*.aps
+*.eto
+*.Publish.xml
+
+# OS X
+*.DS_Store
+
+# NuGet
+*.nupkg
+Nuget/Gulp/*
+# root level packages
+packages/*/*
+# packages on all levels of project's hierarchy
+packages/
+
+# JetBrains
+*.dotCover
+_ReSharper*
+_dotMemory*
+_dotTrace*
+.idea/
+*.iml
+
+# Node.js
+node_modules/*
+Systemorph.*/wwwroot
+Systemorph.*/dist
+Systemorph.*/temp
+Systemorph.*/typings
+Systemorph.*/node_modules
+Systemorph.*/app/details/**/*.js

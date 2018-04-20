@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "Release\src\build\common.vcxitems", "{594DCB5F-07E3-4084-A2CE-268611FA629F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "other", "Release\src\build\other.vcxitems", "{3D5908F7-7673-4229-BC46-2007A7AF9CAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32", "Release\src\build\win32.vcxitems", "{F40F4804-50F9-4257-8D74-B9CBB19AC4C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winrt", "Release\src\build\winrt.vcxitems", "{0A9BA181-7876-4B3D-A5E0-EE673FA51C05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{92944FCF-7E50-41FD-8A99-DD6869F9AEA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpprest141", "Release\src\build\vs141\cpprest141.vcxproj", "{1014C621-BC2D-4813-B8C1-6D83AD6F9249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{EF775754-D70A-4611-A00C-F49F224FD236}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportEntities", "Release\samples\ImportEntities\ImportEntities.vcxproj", "{02456840-4F20-49A6-B879-3347F1E92676}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Release\src\build\winrt.vcxitems*{0a9ba181-7876-4b3d-a5e0-ee673fa51c05}*SharedItemsImports = 9
+		Release\src\build\common.vcxitems*{1014c621-bc2d-4813-b8c1-6d83ad6f9249}*SharedItemsImports = 4
+		Release\src\build\win32.vcxitems*{1014c621-bc2d-4813-b8c1-6d83ad6f9249}*SharedItemsImports = 4
+		Release\src\build\other.vcxitems*{3d5908f7-7673-4229-bc46-2007a7af9cae}*SharedItemsImports = 9
+		Release\src\build\common.vcxitems*{594dcb5f-07e3-4084-a2ce-268611fa629f}*SharedItemsImports = 9
+		Release\src\build\win32.vcxitems*{f40f4804-50f9-4257-8d74-b9cbb19ac4c3}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|ARM.Build.0 = Debug|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x64.ActiveCfg = Debug|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x64.Build.0 = Debug|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x86.ActiveCfg = Debug|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x86.Build.0 = Debug|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|ARM.ActiveCfg = Release|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|ARM.Build.0 = Release|ARM
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.ActiveCfg = Release|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.Build.0 = Release|x64
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.ActiveCfg = Release|Win32
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.Build.0 = Release|Win32
+		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|ARM.ActiveCfg = Debug|Win32
+		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x64.ActiveCfg = Debug|x64
+		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x64.Build.0 = Debug|x64
+		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x86.ActiveCfg = Debug|Win32
+		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x86.Build.0 = Debug|Win32
+		{02456840-4F20-49A6-B879-3347F1E92676}.Release|ARM.ActiveCfg = Release|Win32
+		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x64.ActiveCfg = Release|x64
+		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x64.Build.0 = Release|x64
+		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x86.ActiveCfg = Release|Win32
+		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{594DCB5F-07E3-4084-A2CE-268611FA629F} = {92944FCF-7E50-41FD-8A99-DD6869F9AEA5}
+		{3D5908F7-7673-4229-BC46-2007A7AF9CAE} = {92944FCF-7E50-41FD-8A99-DD6869F9AEA5}
+		{F40F4804-50F9-4257-8D74-B9CBB19AC4C3} = {92944FCF-7E50-41FD-8A99-DD6869F9AEA5}
+		{0A9BA181-7876-4B3D-A5E0-EE673FA51C05} = {92944FCF-7E50-41FD-8A99-DD6869F9AEA5}
+		{1014C621-BC2D-4813-B8C1-6D83AD6F9249} = {92944FCF-7E50-41FD-8A99-DD6869F9AEA5}
+		{02456840-4F20-49A6-B879-3347F1E92676} = {EF775754-D70A-4611-A00C-F49F224FD236}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5782CB9E-B335-4D07-A195-717BF4093536}
+	EndGlobalSection
+EndGlobal
