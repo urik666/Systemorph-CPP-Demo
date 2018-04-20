@@ -46,3 +46,14 @@ Systemorph.*/temp
 Systemorph.*/typings
 Systemorph.*/node_modules
 Systemorph.*/app/details/**/*.js
+
+#Shells
+Systemorph.*/App_Data/*.sdf
+Systemorph.*/App_Data/*.mdf
+Systemorph.*/App_Data/*.ldf
+Systemorph.*/Logs/*.log
+Systemorph.*/Help/*
+Systemorph.*/Lucene_Index/*
+Systemorph.*/Generated/*
+Systemorph.*/AuditRecord_Index/*
+Systemorph.*/gulpTasks/*
