@@ -29,32 +29,24 @@ Global
 		Release\src\build\win32.vcxitems*{f40f4804-50f9-4257-8d74-b9cbb19ac4c3}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|ARM.ActiveCfg = Debug|ARM
-		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|ARM.Build.0 = Debug|ARM
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x64.ActiveCfg = Debug|x64
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x64.Build.0 = Debug|x64
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x86.ActiveCfg = Debug|Win32
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Debug|x86.Build.0 = Debug|Win32
-		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|ARM.ActiveCfg = Release|ARM
-		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|ARM.Build.0 = Release|ARM
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.ActiveCfg = Release|x64
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x64.Build.0 = Release|x64
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.ActiveCfg = Release|Win32
 		{1014C621-BC2D-4813-B8C1-6D83AD6F9249}.Release|x86.Build.0 = Release|Win32
-		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|ARM.ActiveCfg = Debug|Win32
 		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x64.ActiveCfg = Debug|x64
 		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x64.Build.0 = Debug|x64
 		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x86.ActiveCfg = Debug|Win32
 		{02456840-4F20-49A6-B879-3347F1E92676}.Debug|x86.Build.0 = Debug|Win32
-		{02456840-4F20-49A6-B879-3347F1E92676}.Release|ARM.ActiveCfg = Release|Win32
 		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x64.ActiveCfg = Release|x64
 		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x64.Build.0 = Release|x64
 		{02456840-4F20-49A6-B879-3347F1E92676}.Release|x86.ActiveCfg = Release|Win32
